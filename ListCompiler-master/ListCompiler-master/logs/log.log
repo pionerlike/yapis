@@ -1,0 +1,37 @@
+2020-04-17 14:53:45.526 [main] ERROR Main in main - 
+java.nio.file.NoSuchFileException: resources\grammarfile.g4
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[?:?]
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:194) ~[?:?]
+	at java.nio.file.Files.readAttributes(Files.java:1763) ~[?:?]
+	at java.nio.file.Files.size(Files.java:2380) ~[?:?]
+	at org.antlr.v4.runtime.CharStreams.fromPath(CharStreams.java:86) ~[antlr4-runtime-4.8.jar:4.8]
+	at org.antlr.v4.runtime.CharStreams.fromFileName(CharStreams.java:105) ~[antlr4-runtime-4.8.jar:4.8]
+	at Main.main(Main.java:17) [classes/:?]
+2020-04-17 14:54:21.511 [main] ERROR Main in main - 
+java.nio.file.NoSuchFileException: resources\grammarfile.g4
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53) ~[?:?]
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:194) ~[?:?]
+	at java.nio.file.Files.readAttributes(Files.java:1763) ~[?:?]
+	at java.nio.file.Files.size(Files.java:2380) ~[?:?]
+	at org.antlr.v4.runtime.CharStreams.fromPath(CharStreams.java:86) ~[antlr4-runtime-4.8.jar:4.8]
+	at org.antlr.v4.runtime.CharStreams.fromFileName(CharStreams.java:105) ~[antlr4-runtime-4.8.jar:4.8]
+	at Main.main(Main.java:17) [classes/:?]
+2020-04-17 15:01:40.228 [main] ERROR Main in main - 
+java.io.FileNotFoundException: file.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at org.antlr.v4.runtime.misc.Utils.readFile(Utils.java:106) ~[antlr4-runtime-4.8.jar:4.8]
+	at org.antlr.v4.runtime.ANTLRFileStream.load(ANTLRFileStream.java:33) ~[antlr4-runtime-4.8.jar:4.8]
+	at org.antlr.v4.runtime.ANTLRFileStream.<init>(ANTLRFileStream.java:27) ~[antlr4-runtime-4.8.jar:4.8]
+	at org.antlr.v4.runtime.ANTLRFileStream.<init>(ANTLRFileStream.java:22) ~[antlr4-runtime-4.8.jar:4.8]
+	at Main.main(Main.java:16) [classes/:?]

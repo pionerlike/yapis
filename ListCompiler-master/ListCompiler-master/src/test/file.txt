@@ -1,0 +1,6 @@
+Print("program1");
+Element element1 = "element1";
+List list;
+Add(list,element1);
+For(list,el)
+    Print(el)
